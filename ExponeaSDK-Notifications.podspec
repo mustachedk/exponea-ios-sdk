@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ExponeaSDK-Notifications"
-  s.version      = "2.8.0"
+  s.version      = "3.0.0"
   s.summary      = "A completementary extension-safe framework for supporting rich push notifications in Exponea SDK."
 
   # This description is used to generate tags and improve search results.
@@ -77,8 +77,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files    = ["ExponeaSDK/ExponeaSDK-Notifications/**/*.swift", "ExponeaSDK/ExponeaSDK-Shared/**/*.swift"]
-  s.exclude_files   = "ExponeaSDK/ExponeaSDK/**/*"
+  s.source_files    = ["Sources/ExponeaSDK-Notifications/**/*.swift", "Sources/ExponeaSDK-Shared/**/*.swift"]
+  s.exclude_files   = "Sources/ExponeaSDK/**/*"
   s.weak_frameworks = "UserNotifications"
 
 end

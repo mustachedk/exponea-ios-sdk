@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ExponeaSDK"
-  s.version      = "2.8.0"
+  s.version      = "3.0.0"
   s.summary      = "Exponea SDK used to track and fetch data from Exponea Experience Cloud."
 
   # This description is used to generate tags and improve search results.
@@ -78,12 +78,12 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = [
-    "ExponeaSDK/ExponeaSDK/**/*.swift",
-    "ExponeaSDK/ExponeaSDK-Shared/**/*.swift",
-    "ExponeaSDK/ExponeaSDK/Supporting Files/objc_tryCatch.h",
-    "ExponeaSDK/ExponeaSDK/Supporting Files/objc_tryCatch.m",
+    "Sources/ExponeaSDK/**/*.swift",
+    "Sources/ExponeaSDK-Shared/**/*.swift",
+    "Sources/ExponeaSDK/Supporting Files/objc_tryCatch.h",
+    "Sources/ExponeaSDK/Supporting Files/objc_tryCatch.m",
   ]
-  s.exclude_files = "ExponeaSDK/ExponeaSDK-Notifications/**/*"
-  s.resources = ["ExponeaSDK/ExponeaSDK/Classes/Database/*.xcdatamodeld"]
+  s.exclude_files = "Sources/ExponeaSDK-Notifications/**/*"
+  s.resources = ["Sources/ExponeaSDK/Classes/Database/*.xcdatamodeld"]
 
 end
