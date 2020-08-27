@@ -1194,12 +1194,20 @@
 		7811FBB524F793F100E214AB /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				7811FBB624F7954400E214AB /* Exponea */,
+			);
+			name = Sources;
+			path = ../Sources;
+			sourceTree = "<group>";
+		};
+		7811FBB624F7954400E214AB /* Exponea */ = {
+			isa = PBXGroup;
+			children = (
 				F021E85B206CF10200788ABC /* ExponeaSDK */,
 				C0ED33B521A6FB10003649C3 /* ExponeaSDK-Notifications */,
 				C0249EBD2212D15500D4F5D8 /* ExponeaSDK-Shared */,
 			);
-			name = Sources;
-			path = ../Sources;
+			path = Exponea;
 			sourceTree = "<group>";
 		};
 		A3613BD1E2C1D4616B6A9767 /* Frameworks */ = {
