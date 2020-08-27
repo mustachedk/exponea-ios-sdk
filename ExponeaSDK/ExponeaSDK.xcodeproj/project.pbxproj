@@ -1191,6 +1191,16 @@
 			path = Shared;
 			sourceTree = "<group>";
 		};
+		7811FBB324F7920E00E214AB /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F021E85B206CF10200788ABC /* ExponeaSDK */,
+				C0ED33B521A6FB10003649C3 /* ExponeaSDK-Notifications */,
+				C0249EBD2212D15500D4F5D8 /* ExponeaSDK-Shared */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		A3613BD1E2C1D4616B6A9767 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -1465,12 +1475,10 @@
 		F021E84F206CF10200788ABC = {
 			isa = PBXGroup;
 			children = (
+				7811FBB324F7920E00E214AB /* Sources */,
 				C0F6C4E12098A1AB00834E21 /* Example */,
 				C08D53D221B9474E00EA2C13 /* ExampleNotificationContent */,
 				C0ED33A421A6FA31003649C3 /* ExampleNotificationService */,
-				F021E85B206CF10200788ABC /* ExponeaSDK */,
-				C0ED33B521A6FB10003649C3 /* ExponeaSDK-Notifications */,
-				C0249EBD2212D15500D4F5D8 /* ExponeaSDK-Shared */,
 				F021E866206CF10200788ABC /* ExponeaSDKTests */,
 				A3613BD1E2C1D4616B6A9767 /* Frameworks */,
 				BA562F8AA107D3AB3132C40D /* Pods */,
@@ -2737,7 +2745,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/ExponeaSDK/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/ExponeaSDK/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -2766,7 +2774,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
-				INFOPLIST_FILE = "$(SRCROOT)/ExponeaSDK/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/ExponeaSDK/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
